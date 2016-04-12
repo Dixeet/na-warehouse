@@ -93,6 +93,14 @@ function SelectBuildingsChange(buildings) {
 $(document).ready(function () {
     LoadSelectBuildings();
     SwitchToDataScreen();
+    //$.ajax({url:"https://docs.google.com/spreadsheets/d/1jFQNMjbZZWsqqOZTP2HuUPGujgpFbJVgOVCox4ija28/pub?gid=691791079&single=true&output=csv",
+    //    accepts:{"Content-Type": "text/csv"}
+    //}).always(function (data) {
+    //    console.log(data);
+    //});
+    $.get("db_acr_resources.csv", function (data) {
+        console.log(data);
+    });
     $('form').submit(SubmitForm);
 
 });
