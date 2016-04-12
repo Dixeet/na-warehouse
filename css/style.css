@@ -1,0 +1,10 @@
+#loading-spinner {
+    min-height: 400px;
+}
+#loading-spinner .center-align {
+    margin-left: auto;
+    margin-right: auto;
+}
+#data-screen .tabs .indicator {
+    background-color: #3e2723;
+}
