@@ -18,13 +18,6 @@ var buildings = [
     {name: 'Teak Forest'},
     {name: 'Workshop'}
 ];
-var config = {
-    form: {
-        url: "https://docs.google.com/forms/d/1WrwwySF5lTweADvVV72fHex03Br3_sc2HIDjqLfa1nw/formResponse",
-        pseudoField: "entry.673566190",
-        infosField: "entry.571865672"
-    }
-};
 var selectedBuildings = [];
 function SwitchToLoadingScreen(message) {
     $("#loading-screen").removeClass("hide");
@@ -51,9 +44,9 @@ function RecoverLevel() {
         selectedBuildings[idx].lvl = $('#lvl-' + idx).val();
     })
 }
-function SendToGoogleSheet(pseudo, infos) {
+function SendToDb(pseudo, infos) {
     var data = {};
-    data[config.form.pseudoField] = pseudo;
+    data.pseudo = pseudo;
     var infosString = "";
     infos.forEach(function (info) {
         if (infosString == ""){
@@ -62,8 +55,8 @@ function SendToGoogleSheet(pseudo, infos) {
             infosString += "," + info.name + "=" + info.lvl;
         }
     });
-    data[config.form.infosField] = infosString;
-    $.ajax({url:config.form.url,data: data, method:"POST"}).always(function () {
+    data.infos = infosString;
+    $.get('post_users.php',data).done(function () {
         console.log("Done");
     });
 }
@@ -71,7 +64,7 @@ function SubmitForm(event) {
     event.preventDefault();
     var pseudo = $('#pseudo').val();
     RecoverLevel();
-    SendToGoogleSheet(pseudo, selectedBuildings);
+    SendToDb(pseudo, selectedBuildings);
 }
 function SelectBuildingsChange(buildings) {
     var buildingsLvl = $('#buildings-lvl');
@@ -98,9 +91,6 @@ $(document).ready(function () {
     //}).always(function (data) {
     //    console.log(data);
     //});
-    $.get("db_acr_resources.csv", function (data) {
-        console.log(data);
-    });
     $('form').submit(SubmitForm);
 
 });
