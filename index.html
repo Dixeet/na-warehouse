@@ -1,129 +1,13 @@
-<!DOCTYPE html>
-<html lang="fr">
+<html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-    <title>ACR Warehouse</title>
-
-    <!-- CSS  -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="css/materialize.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <!--<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+    <!--<script src="http://cdnjs.cloudflare.com/ajax/libs/fabric.js/1.5.0/fabric.min.js"></script>-->
+    <script src="https://code.createjs.com/easeljs-0.8.2.min.js"></script>
+    <script src="js/jquery.mousewheel.min.js"></script>
+    <script src="js/map.js"></script>
 </head>
-<body>
-<div id="banner" class="section brown lighten-2">
-    <div class="container">
-        <h1 class="header center brown-text text-darken-4">ACR Warehouse</h1>
-        <div class="row center">
-            <h5 class="header col m12 brown-text text-darken-3">Outil de gestion et de visualisation des bâtiments et ressources pour Naval Action</h5>
-        </div>
-    </div>
-</div>
-<div class="section">
-    <div class="container" id="loading-screen">
-        <div class="valign-wrapper" id="loading-spinner">
-            <div class="preloader-wrapper big active valign center-align">
-                <div class="spinner-layer spinner-blue">
-                    <div class="circle-clipper left">
-                        <div class="circle"></div>
-                    </div>
-                    <div class="gap-patch">
-                        <div class="circle"></div>
-                    </div>
-                    <div class="circle-clipper right">
-                        <div class="circle"></div>
-                    </div>
-                </div>
-
-                <div class="spinner-layer spinner-red">
-                    <div class="circle-clipper left">
-                        <div class="circle"></div>
-                    </div>
-                    <div class="gap-patch">
-                        <div class="circle"></div>
-                    </div>
-                    <div class="circle-clipper right">
-                        <div class="circle"></div>
-                    </div>
-                </div>
-
-                <div class="spinner-layer spinner-yellow">
-                    <div class="circle-clipper left">
-                        <div class="circle"></div>
-                    </div>
-                    <div class="gap-patch">
-                        <div class="circle"></div>
-                    </div>
-                    <div class="circle-clipper right">
-                        <div class="circle"></div>
-                    </div>
-                </div>
-
-                <div class="spinner-layer spinner-green">
-                    <div class="circle-clipper left">
-                        <div class="circle"></div>
-                    </div>
-                    <div class="gap-patch">
-                        <div class="circle"></div>
-                    </div>
-                    <div class="circle-clipper right">
-                        <div class="circle"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div id="loading-text" class="col s12 center-align">Chargement des données...</div>
-        </div>
-    </div>
-    <div class="container hide" id="data-screen">
-        <div class="row">
-            <div class="col m12">
-                <ul class="tabs">
-                    <li class="tab col s3 hoverable"><a class="active brown-text text-darken-3" href="#stats">Statistiques</a></li>
-                    <li class="tab col s3 hoverable"><a class="brown-text text-darken-3" href="#add-ressources">Ajouter / Modifier ses bâtiments</a></li>
-                </ul>
-            </div>
-            <div id="stats" class="col s12"><div class="card brown lighten-4">
-                <div class="card-content brown-text text-darken-3">
-                    <span class="card-title">Card Title</span>
-                    <p>I am a very simple card. I am good at containing small bits of information.
-                        I am convenient because I require little markup to use effectively.</p>
-                </div>
-            </div>
-            </div>
-            <form id="add-ressources" class="col s12"><div class="col s12">
-                <div class="row">
-                    <div class="input-field col s12">
-                        <input required placeholder="Pseudo" id="pseudo" type="text" class="validate">
-                        <label for="pseudo">Pseudo</label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                        <select multiple id="select-buildings">
-                            <option value="" disabled selected>Choisissez vos batiments</option>
-                        </select>
-                        <label>Bâtiments</label>
-                    </div>
-                </div>
-                <div class="row hide" id="buildings-lvl">
-
-                </div>
-                <button class="btn waves-effect waves-light hide" type="submit" name="action">Envoyer
-                    <i class="material-icons right">send</i>
-                </button>
-            </div>
-            </form>
-        </div>
-    </div>
-</div>
-
-<!--  Scripts-->
-<script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
-<script src="js/materialize.min.js" crossorigin="anonymous"></script>
-<script src="js/resource.js" crossorigin="anonymous"></script>
-
+<body onload="initMap()">
+<canvas id="canvas"></canvas>
 </body>
 </html>

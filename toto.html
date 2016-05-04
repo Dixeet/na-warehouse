@@ -1,0 +1,25 @@
+<html>
+<head>
+    <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+    <script  src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+    <script>
+        function init() {
+            $.getScript("http://storage.googleapis.com/nacleanopenworldprodshards/Ports_cleanopenworldprodeu1.json",function(data,textStatus){
+                var stage = new createjs.Stage("demoCanvas");
+                console.log(Ports);
+                Ports.forEach(function (port) {
+                    var circle = new createjs.Shape();
+                    circle.graphics.beginFill("DeepSkyBlue").drawCircle(0, 0, 3);
+                    circle.x = port.sourcePosition.x * 0.16;
+                    circle.y = port.sourcePosition.y * 0.16;
+                    stage.addChild(circle);
+                });
+                stage.update();
+            });
+        }
+    </script>
+</head>
+<body onload="init();">
+<canvas id="demoCanvas" width="1350" height="1024"></canvas>
+</body>
+</html>
