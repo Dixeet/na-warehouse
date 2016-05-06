@@ -18,7 +18,7 @@
       "z": 0
     },
     "Rotation": 270,
-    "Nation": 1,
+    "Nation": 8,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -34,8 +34,8 @@
     "Id": "3",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Zombie Pirate",
-    "ConquestFlagTimeSlot": 12
+    "Capturer": "Stephen Decatur",
+    "ConquestFlagTimeSlot": 2
   },
   {
     "Name": "West End",
@@ -56,7 +56,7 @@
       "z": 0
     },
     "Rotation": 225.000015258789,
-    "Nation": 1,
+    "Nation": 8,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": true,
@@ -72,8 +72,8 @@
     "Id": "4",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Zombie Pirate",
-    "ConquestFlagTimeSlot": 12
+    "Capturer": "Liberty Jack",
+    "ConquestFlagTimeSlot": 2
   },
   {
     "Name": "Road Rocks",
@@ -132,7 +132,7 @@
       "z": 0
     },
     "Rotation": 225.000015258789,
-    "Nation": 1,
+    "Nation": 8,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -148,8 +148,8 @@
     "Id": "6",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Zombie Pirate",
-    "ConquestFlagTimeSlot": 12
+    "Capturer": "Hugh Latham",
+    "ConquestFlagTimeSlot": 2
   },
   {
     "Name": "Sandy Point",
@@ -262,8 +262,8 @@
     "Id": "9",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Xemko",
-    "ConquestFlagTimeSlot": 12
+    "Capturer": "Siberian",
+    "ConquestFlagTimeSlot": 16
   },
   {
     "Name": "Bimini",
@@ -284,7 +284,7 @@
       "z": 0
     },
     "Rotation": 270,
-    "Nation": 1,
+    "Nation": 8,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -300,8 +300,8 @@
     "Id": "10",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "lazzie",
-    "ConquestFlagTimeSlot": 12
+    "Capturer": "Vosper Rumdowner",
+    "ConquestFlagTimeSlot": 2
   },
   {
     "Name": "Mimbres",
@@ -322,7 +322,7 @@
       "z": 0
     },
     "Rotation": 28.6104583740234,
-    "Nation": 1,
+    "Nation": 8,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -338,8 +338,8 @@
     "Id": "11",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Xemko",
-    "ConquestFlagTimeSlot": 12
+    "Capturer": "Jack Sparror",
+    "ConquestFlagTimeSlot": 2
   },
   {
     "Name": "Morgan's Bluff",
@@ -718,8 +718,8 @@
     "Id": "21",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "",
-    "ConquestFlagTimeSlot": -1
+    "Capturer": "DukeNasty",
+    "ConquestFlagTimeSlot": 10
   },
   {
     "Name": "Watling",
@@ -740,7 +740,7 @@
       "z": 0
     },
     "Rotation": 45.0000038146973,
-    "Nation": 1,
+    "Nation": 8,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -756,8 +756,8 @@
     "Id": "22",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "",
-    "ConquestFlagTimeSlot": -1
+    "Capturer": "King of Crowns",
+    "ConquestFlagTimeSlot": 0
   },
   {
     "Name": "Pitt's Town",
@@ -870,8 +870,8 @@
     "Id": "25",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Bigvalco",
-    "ConquestFlagTimeSlot": 2
+    "Capturer": "Lord Vicious",
+    "ConquestFlagTimeSlot": 12
   },
   {
     "Name": "Mayaguana",
@@ -908,8 +908,8 @@
     "Id": "26",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Bigvalco",
-    "ConquestFlagTimeSlot": 2
+    "Capturer": "Xemko",
+    "ConquestFlagTimeSlot": 18
   },
   {
     "Name": "Mortimer Town",
@@ -984,8 +984,8 @@
     "Id": "28",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Bigvalco",
-    "ConquestFlagTimeSlot": 2
+    "Capturer": "Xemko",
+    "ConquestFlagTimeSlot": 16
   },
   {
     "Name": "Little Inagua",
@@ -1136,8 +1136,8 @@
     "Id": "32",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Galaga",
-    "ConquestFlagTimeSlot": 2
+    "Capturer": "Lord Vicious",
+    "ConquestFlagTimeSlot": 10
   },
   {
     "Name": "Grand Turk",
@@ -1174,8 +1174,8 @@
     "Id": "33",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Bigvalco",
-    "ConquestFlagTimeSlot": 2
+    "Capturer": "Xemko",
+    "ConquestFlagTimeSlot": 16
   },
   {
     "Name": "Mantua",
@@ -1254,7 +1254,7 @@
     "ConquestFlagTimeSlot": 20
   },
   {
-    "Name": "Bah?a Honda",
+    "Name": "BahÃ­a Honda",
     "Position": {
       "x": 225200.005033612,
       "y": 0,
@@ -1440,8 +1440,8 @@
     "Id": "40",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Xemko",
-    "ConquestFlagTimeSlot": 14
+    "Capturer": "LeCourage",
+    "ConquestFlagTimeSlot": 4
   },
   {
     "Name": "Cayo de Sal",
@@ -1462,7 +1462,7 @@
       "z": 0
     },
     "Rotation": 180,
-    "Nation": 1,
+    "Nation": 2,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -1478,8 +1478,8 @@
     "Id": "41",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Medic",
-    "ConquestFlagTimeSlot": 14
+    "Capturer": "Kaori",
+    "ConquestFlagTimeSlot": 18
   },
   {
     "Name": "La Anguilla",
@@ -1500,7 +1500,7 @@
       "z": 0
     },
     "Rotation": 315.000030517578,
-    "Nation": 1,
+    "Nation": 8,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -1516,8 +1516,8 @@
     "Id": "42",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Zombie Pirate",
-    "ConquestFlagTimeSlot": 14
+    "Capturer": "Stephen Decatur",
+    "ConquestFlagTimeSlot": 2
   },
   {
     "Name": "Remedios",
@@ -1538,7 +1538,7 @@
       "z": 0
     },
     "Rotation": 68.6820907592773,
-    "Nation": 1,
+    "Nation": 2,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -1554,8 +1554,8 @@
     "Id": "43",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Medic",
-    "ConquestFlagTimeSlot": 14
+    "Capturer": "Rex Maris",
+    "ConquestFlagTimeSlot": 16
   },
   {
     "Name": "Cayo Romano",
@@ -1614,7 +1614,7 @@
       "z": 0
     },
     "Rotation": 94.7636337280273,
-    "Nation": 1,
+    "Nation": 8,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -1630,8 +1630,8 @@
     "Id": "45",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Nordeanum",
-    "ConquestFlagTimeSlot": 18
+    "Capturer": "Leviathan",
+    "ConquestFlagTimeSlot": 0
   },
   {
     "Name": "Nuevitas",
@@ -1652,7 +1652,7 @@
       "z": 0
     },
     "Rotation": 21.8014125823975,
-    "Nation": 1,
+    "Nation": 8,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": true,
@@ -1668,8 +1668,8 @@
     "Id": "46",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Bigvalco",
-    "ConquestFlagTimeSlot": 2
+    "Capturer": "Gorven Maneuver",
+    "ConquestFlagTimeSlot": 0
   },
   {
     "Name": "Puerto del Padre",
@@ -1706,8 +1706,8 @@
     "Id": "47",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Tony",
-    "ConquestFlagTimeSlot": 16
+    "Capturer": "Lord Vicious",
+    "ConquestFlagTimeSlot": 12
   },
   {
     "Name": "Guibara",
@@ -1744,8 +1744,8 @@
     "Id": "48",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Dark",
-    "ConquestFlagTimeSlot": 18
+    "Capturer": "Pancawkz",
+    "ConquestFlagTimeSlot": 4
   },
   {
     "Name": "Puerto de Nipe",
@@ -1782,7 +1782,7 @@
     "Id": "49",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Xemko",
+    "Capturer": "Lord Vicious",
     "ConquestFlagTimeSlot": 4
   },
   {
@@ -1820,7 +1820,7 @@
     "Id": "50",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Thomas Sailaway",
+    "Capturer": "qw569",
     "ConquestFlagTimeSlot": 16
   },
   {
@@ -1842,7 +1842,7 @@
       "z": 0
     },
     "Rotation": 180,
-    "Nation": 1,
+    "Nation": 5,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -1858,8 +1858,8 @@
     "Id": "51",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Xemko",
-    "ConquestFlagTimeSlot": 16
+    "Capturer": "Neith",
+    "ConquestFlagTimeSlot": 18
   },
   {
     "Name": "Sant Iago",
@@ -1880,7 +1880,7 @@
       "z": 0
     },
     "Rotation": 180,
-    "Nation": 1,
+    "Nation": 4,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": true,
@@ -1896,11 +1896,11 @@
     "Id": "52",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Warthog",
-    "ConquestFlagTimeSlot": 16
+    "Capturer": "darkjoker",
+    "ConquestFlagTimeSlot": 0
   },
   {
-    "Name": "Guam? Sevilla",
+    "Name": "GuamÃ¡ Sevilla",
     "Position": {
       "x": -69200.0015467406,
       "y": 0,
@@ -1918,7 +1918,7 @@
       "z": 0
     },
     "Rotation": 180,
-    "Nation": 1,
+    "Nation": 4,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -1934,8 +1934,8 @@
     "Id": "53",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Zombie Pirate",
-    "ConquestFlagTimeSlot": 16
+    "Capturer": "Skilgan",
+    "ConquestFlagTimeSlot": 2
   },
   {
     "Name": "Portillo",
@@ -1956,7 +1956,7 @@
       "z": 0
     },
     "Rotation": 180,
-    "Nation": 1,
+    "Nation": 4,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -1972,8 +1972,8 @@
     "Id": "54",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Xemko",
-    "ConquestFlagTimeSlot": 2
+    "Capturer": "Steve the Privateer",
+    "ConquestFlagTimeSlot": 0
   },
   {
     "Name": "Manzanilla",
@@ -1994,7 +1994,7 @@
       "z": 0
     },
     "Rotation": 270,
-    "Nation": 1,
+    "Nation": 4,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -2010,8 +2010,8 @@
     "Id": "55",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "nPeT HanPoJIoM",
-    "ConquestFlagTimeSlot": 2
+    "Capturer": "PentaStealz",
+    "ConquestFlagTimeSlot": 4
   },
   {
     "Name": "Santa Cruz",
@@ -2032,7 +2032,7 @@
       "z": 0
     },
     "Rotation": 165.963760375977,
-    "Nation": 1,
+    "Nation": 4,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -2048,11 +2048,11 @@
     "Id": "56",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "BARKAS",
-    "ConquestFlagTimeSlot": 2
+    "Capturer": "Zolfo",
+    "ConquestFlagTimeSlot": 4
   },
   {
-    "Name": "Santa Mar?a",
+    "Name": "Santa MarÃ­a",
     "Position": {
       "x": 26400.000590086,
       "y": 0,
@@ -2070,7 +2070,7 @@
       "z": 0
     },
     "Rotation": 225.000015258789,
-    "Nation": 1,
+    "Nation": 4,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -2086,11 +2086,11 @@
     "Id": "57",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Zombie Pirate",
-    "ConquestFlagTimeSlot": 0
+    "Capturer": "Rick O Shea",
+    "ConquestFlagTimeSlot": 4
   },
   {
-    "Name": "Sancti Sp?ritus",
+    "Name": "Sancti SpÃ­ritus",
     "Position": {
       "x": 66800.0014930964,
       "y": 0,
@@ -2124,8 +2124,8 @@
     "Id": "58",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Muzungu",
-    "ConquestFlagTimeSlot": 0
+    "Capturer": "PentaStealz",
+    "ConquestFlagTimeSlot": 4
   },
   {
     "Name": "Trinidad",
@@ -2162,7 +2162,7 @@
     "Id": "59",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "GKar Rah",
+    "Capturer": "Rick O Shea",
     "ConquestFlagTimeSlot": 4
   },
   {
@@ -2200,7 +2200,7 @@
     "Id": "60",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "ztrexx",
+    "Capturer": "Rick O Shea",
     "ConquestFlagTimeSlot": 4
   },
   {
@@ -2238,8 +2238,8 @@
     "Id": "61",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Zaiquel",
-    "ConquestFlagTimeSlot": 2
+    "Capturer": "Conde",
+    "ConquestFlagTimeSlot": 16
   },
   {
     "Name": "San Lazaro",
@@ -2280,7 +2280,7 @@
     "ConquestFlagTimeSlot": 18
   },
   {
-    "Name": "Bataban?",
+    "Name": "BatabanÃ³",
     "Position": {
       "x": 188200.004206598,
       "y": 0,
@@ -2356,7 +2356,7 @@
     "ConquestFlagTimeSlot": 22
   },
   {
-    "Name": "Pinar del R?o",
+    "Name": "Pinar del RÃ­o",
     "Position": {
       "x": 256800.005739927,
       "y": 0,
@@ -2505,7 +2505,7 @@
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
     "Capturer": "Grand Inquisitor Slamz",
-    "ConquestFlagTimeSlot": 2
+    "ConquestFlagTimeSlot": 16
   },
   {
     "Name": "Daguilla",
@@ -2543,7 +2543,7 @@
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
     "Capturer": "Grand Inquisitor Slamz",
-    "ConquestFlagTimeSlot": 2
+    "ConquestFlagTimeSlot": 16
   },
   {
     "Name": "Cocodrillo",
@@ -2581,7 +2581,7 @@
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
     "Capturer": "BlasdeLezoElEmpecinado",
-    "ConquestFlagTimeSlot": 2
+    "ConquestFlagTimeSlot": 14
   },
   {
     "Name": "Siguanea",
@@ -2619,7 +2619,7 @@
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
     "Capturer": "Grand Inquisitor Slamz",
-    "ConquestFlagTimeSlot": 2
+    "ConquestFlagTimeSlot": 14
   },
   {
     "Name": "George Town",
@@ -2656,8 +2656,8 @@
     "Id": "72",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Jonathan Arlington",
-    "ConquestFlagTimeSlot": 16
+    "Capturer": "Frederick de Booty",
+    "ConquestFlagTimeSlot": 18
   },
   {
     "Name": "Little Cayman",
@@ -2694,8 +2694,8 @@
     "Id": "73",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "GKar Rah",
-    "ConquestFlagTimeSlot": 18
+    "Capturer": "D4mi4n",
+    "ConquestFlagTimeSlot": 0
   },
   {
     "Name": "Cayman Brac",
@@ -2770,8 +2770,8 @@
     "Id": "75",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "GKar Rah",
-    "ConquestFlagTimeSlot": 16
+    "Capturer": "Ranger",
+    "ConquestFlagTimeSlot": 14
   },
   {
     "Name": "Saint Ann",
@@ -2808,8 +2808,8 @@
     "Id": "76",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "GKar Rah",
-    "ConquestFlagTimeSlot": 16
+    "Capturer": "Roger Churchill",
+    "ConquestFlagTimeSlot": 12
   },
   {
     "Name": "Port Antonio",
@@ -2846,8 +2846,8 @@
     "Id": "77",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Cpt Mcphallis",
-    "ConquestFlagTimeSlot": 16
+    "Capturer": "Roger Churchill",
+    "ConquestFlagTimeSlot": 12
   },
   {
     "Name": "Port Morant",
@@ -2960,8 +2960,8 @@
     "Id": "80",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "",
-    "ConquestFlagTimeSlot": -1
+    "Capturer": "Osscar",
+    "ConquestFlagTimeSlot": 18
   },
   {
     "Name": "Savanna la Mar",
@@ -2998,8 +2998,8 @@
     "Id": "81",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Ranger",
-    "ConquestFlagTimeSlot": 10
+    "Capturer": "PentaStealz",
+    "ConquestFlagTimeSlot": 14
   },
   {
     "Name": "Sale-Trou",
@@ -3036,7 +3036,7 @@
     "Id": "82",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Tortik",
+    "Capturer": "Babay",
     "ConquestFlagTimeSlot": 18
   },
   {
@@ -3075,7 +3075,7 @@
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
     "Capturer": "Babay",
-    "ConquestFlagTimeSlot": 16
+    "ConquestFlagTimeSlot": 18
   },
   {
     "Name": "Saint-Louis",
@@ -3096,7 +3096,7 @@
       "z": 0
     },
     "Rotation": 172.874984741211,
-    "Nation": 6,
+    "Nation": 7,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -3112,11 +3112,11 @@
     "Id": "84",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Babay",
+    "Capturer": "Tretton",
     "ConquestFlagTimeSlot": 18
   },
   {
-    "Name": "?le-?-Vache",
+    "Name": "ÃŽle-Ã -Vache",
     "Position": {
       "x": -192600.004304946,
       "y": 0,
@@ -3172,7 +3172,7 @@
       "z": 0
     },
     "Rotation": 135,
-    "Nation": 6,
+    "Nation": 5,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -3188,7 +3188,7 @@
     "Id": "86",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Herminator",
+    "Capturer": "WkurzonySzkot",
     "ConquestFlagTimeSlot": 18
   },
   {
@@ -3210,7 +3210,7 @@
       "z": 0
     },
     "Rotation": 225.000015258789,
-    "Nation": 1,
+    "Nation": 5,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -3226,11 +3226,11 @@
     "Id": "87",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Kuthara",
-    "ConquestFlagTimeSlot": 16
+    "Capturer": "MrKrebz",
+    "ConquestFlagTimeSlot": 18
   },
   {
-    "Name": "J?r?mie",
+    "Name": "JÃ©rÃ©mie",
     "Position": {
       "x": -169200.003781915,
       "y": 0,
@@ -3248,7 +3248,7 @@
       "z": 0
     },
     "Rotation": 45.0000038146973,
-    "Nation": 1,
+    "Nation": 5,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": true,
@@ -3264,7 +3264,7 @@
     "Id": "88",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Capt Jubal Early",
+    "Capturer": "MrKrebz",
     "ConquestFlagTimeSlot": 18
   },
   {
@@ -3286,7 +3286,7 @@
       "z": 0
     },
     "Rotation": 0,
-    "Nation": 1,
+    "Nation": 5,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -3302,11 +3302,11 @@
     "Id": "89",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Cpt BLunTTz",
+    "Capturer": "Tobey Van Mobhorst",
     "ConquestFlagTimeSlot": 18
   },
   {
-    "Name": "L?ogane",
+    "Name": "LÃ©ogane",
     "Position": {
       "x": -235800.005270541,
       "y": 0,
@@ -3324,7 +3324,7 @@
       "z": 0
     },
     "Rotation": 315.000030517578,
-    "Nation": 1,
+    "Nation": 5,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -3340,7 +3340,7 @@
     "Id": "90",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Xemko",
+    "Capturer": "Neith",
     "ConquestFlagTimeSlot": 18
   },
   {
@@ -3362,7 +3362,7 @@
       "z": 0
     },
     "Rotation": 0,
-    "Nation": 1,
+    "Nation": 5,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": true,
@@ -3378,7 +3378,7 @@
     "Id": "91",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Shinigoroshi",
+    "Capturer": "praefect",
     "ConquestFlagTimeSlot": 18
   },
   {
@@ -3400,7 +3400,7 @@
       "z": 0
     },
     "Rotation": 270,
-    "Nation": 1,
+    "Nation": 5,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -3416,11 +3416,11 @@
     "Id": "92",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Kuthara",
-    "ConquestFlagTimeSlot": 16
+    "Capturer": "Lobottomie",
+    "ConquestFlagTimeSlot": 18
   },
   {
-    "Name": "Les Gona?ves",
+    "Name": "Les GonaÃ¯ves",
     "Position": {
       "x": -233600.005221367,
       "y": 0,
@@ -3454,8 +3454,8 @@
     "Id": "93",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Zombie Pirate",
-    "ConquestFlagTimeSlot": 16
+    "Capturer": "Scaramouche",
+    "ConquestFlagTimeSlot": 4
   },
   {
     "Name": "Saint-Nicolas",
@@ -3492,8 +3492,8 @@
     "Id": "94",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Dismembered Parts",
-    "ConquestFlagTimeSlot": 20
+    "Capturer": "Robeque",
+    "ConquestFlagTimeSlot": 18
   },
   {
     "Name": "Port-de-Paix",
@@ -3530,8 +3530,8 @@
     "Id": "95",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Scurvy Dain",
-    "ConquestFlagTimeSlot": 2
+    "Capturer": "Papa Bear",
+    "ConquestFlagTimeSlot": 14
   },
   {
     "Name": "La Tortue",
@@ -3572,7 +3572,7 @@
     "ConquestFlagTimeSlot": -1
   },
   {
-    "Name": "Cap-Fran?ais",
+    "Name": "Cap-FranÃ§ais",
     "Position": {
       "x": -257000.005744398,
       "y": 0,
@@ -3606,8 +3606,8 @@
     "Id": "97",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Bigvalco",
-    "ConquestFlagTimeSlot": 2
+    "Capturer": "von Krimminal",
+    "ConquestFlagTimeSlot": 10
   },
   {
     "Name": "Fort-Dauphin",
@@ -3644,8 +3644,8 @@
     "Id": "98",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Bigvalco",
-    "ConquestFlagTimeSlot": 2
+    "Capturer": "Xemko",
+    "ConquestFlagTimeSlot": 16
   },
   {
     "Name": "Monte Cristi",
@@ -3683,7 +3683,7 @@
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
     "Capturer": "Xemko",
-    "ConquestFlagTimeSlot": 4
+    "ConquestFlagTimeSlot": 16
   },
   {
     "Name": "La Isabela",
@@ -3759,10 +3759,10 @@
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
     "Capturer": "Gamover",
-    "ConquestFlagTimeSlot": 2
+    "ConquestFlagTimeSlot": 18
   },
   {
-    "Name": "Rinc?n",
+    "Name": "RincÃ³n",
     "Position": {
       "x": -340600.007613003,
       "y": 0,
@@ -3797,10 +3797,10 @@
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
     "Capturer": "Gamover",
-    "ConquestFlagTimeSlot": 4
+    "ConquestFlagTimeSlot": 18
   },
   {
-    "Name": "Bah?a Escocesa",
+    "Name": "BahÃ­a Escocesa",
     "Position": {
       "x": -365200.008162856,
       "y": 0,
@@ -3838,7 +3838,7 @@
     "ConquestFlagTimeSlot": 16
   },
   {
-    "Name": "Saman?",
+    "Name": "SamanÃ¡",
     "Position": {
       "x": -390600.008730591,
       "y": 0,
@@ -3914,7 +3914,7 @@
     "ConquestFlagTimeSlot": 16
   },
   {
-    "Name": "Hig?ey",
+    "Name": "HigÃ¼ey",
     "Position": {
       "x": -421400.009419024,
       "y": 0,
@@ -3986,8 +3986,8 @@
     "Id": "107",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Babay",
-    "ConquestFlagTimeSlot": 18
+    "Capturer": "Arkos",
+    "ConquestFlagTimeSlot": 4
   },
   {
     "Name": "Santo Domingo",
@@ -4028,7 +4028,7 @@
     "ConquestFlagTimeSlot": 16
   },
   {
-    "Name": "Ban?",
+    "Name": "BanÃ­",
     "Position": {
       "x": -342800.007662177,
       "y": 0,
@@ -4062,7 +4062,7 @@
     "Id": "109",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Klava Pupkina",
+    "Capturer": "Kleman",
     "ConquestFlagTimeSlot": 18
   },
   {
@@ -4122,7 +4122,7 @@
       "z": 0
     },
     "Rotation": 68.1985855102539,
-    "Nation": 6,
+    "Nation": 4,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -4138,8 +4138,8 @@
     "Id": "111",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Copperbolt",
-    "ConquestFlagTimeSlot": 16
+    "Capturer": "HMCS Warstore",
+    "ConquestFlagTimeSlot": 10
   },
   {
     "Name": "La Mona",
@@ -4408,7 +4408,7 @@
     "ConquestFlagTimeSlot": 18
   },
   {
-    "Name": "Gu?nica",
+    "Name": "GuÃ¡nica",
     "Position": {
       "x": -489800.010947883,
       "y": 0,
@@ -4442,7 +4442,7 @@
     "Id": "119",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Kron",
+    "Capturer": "Quinsi",
     "ConquestFlagTimeSlot": 18
   },
   {
@@ -4480,7 +4480,7 @@
     "Id": "120",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Pokerjoker",
+    "Capturer": "tm2804",
     "ConquestFlagTimeSlot": 18
   },
   {
@@ -4671,7 +4671,7 @@
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
     "Capturer": "Piwkin",
-    "ConquestFlagTimeSlot": 20
+    "ConquestFlagTimeSlot": 4
   },
   {
     "Name": "The Settlement",
@@ -5089,7 +5089,7 @@
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
     "Capturer": "Kanten92",
-    "ConquestFlagTimeSlot": 20
+    "ConquestFlagTimeSlot": 10
   },
   {
     "Name": "Basseterre",
@@ -5127,7 +5127,7 @@
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
     "Capturer": "Nostra",
-    "ConquestFlagTimeSlot": 10
+    "ConquestFlagTimeSlot": 18
   },
   {
     "Name": "Charlestown",
@@ -5316,8 +5316,8 @@
     "Id": "142",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Luxaeterna",
-    "ConquestFlagTimeSlot": 20
+    "Capturer": "Axs",
+    "ConquestFlagTimeSlot": 12
   },
   {
     "Name": "Le Moule",
@@ -5354,11 +5354,11 @@
     "Id": "143",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Tabian",
-    "ConquestFlagTimeSlot": 22
+    "Capturer": "kamaa",
+    "ConquestFlagTimeSlot": 18
   },
   {
-    "Name": "Saint-Fran?ois",
+    "Name": "Saint-FranÃ§ois",
     "Position": {
       "x": -761000.017009676,
       "y": 0,
@@ -5393,10 +5393,10 @@
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
     "Capturer": "Luxaeterna",
-    "ConquestFlagTimeSlot": 20
+    "ConquestFlagTimeSlot": 18
   },
   {
-    "Name": "Pointe-?-Pitre",
+    "Name": "Pointe-Ã -Pitre",
     "Position": {
       "x": -748200.016723574,
       "y": 0,
@@ -5430,8 +5430,8 @@
     "Id": "145",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Nakor",
-    "ConquestFlagTimeSlot": 20
+    "Capturer": "Axs",
+    "ConquestFlagTimeSlot": 12
   },
   {
     "Name": "Basse-Terre",
@@ -5452,7 +5452,7 @@
       "z": 0
     },
     "Rotation": 225.000015258789,
-    "Nation": 3,
+    "Nation": 7,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": true,
@@ -5468,8 +5468,8 @@
     "Id": "146",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Tatann",
-    "ConquestFlagTimeSlot": 20
+    "Capturer": "sveno",
+    "ConquestFlagTimeSlot": 22
   },
   {
     "Name": "Deshaies",
@@ -5506,8 +5506,8 @@
     "Id": "147",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Guy Niol",
-    "ConquestFlagTimeSlot": 20
+    "Capturer": "Axs",
+    "ConquestFlagTimeSlot": 12
   },
   {
     "Name": "Terre-de-Bas",
@@ -5528,7 +5528,7 @@
       "z": 0
     },
     "Rotation": 180,
-    "Nation": 3,
+    "Nation": 6,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -5544,8 +5544,8 @@
     "Id": "148",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Eric",
-    "ConquestFlagTimeSlot": 20
+    "Capturer": "Zakhar Mishukov",
+    "ConquestFlagTimeSlot": 16
   },
   {
     "Name": "Camp du Roy",
@@ -5583,7 +5583,7 @@
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
     "Capturer": "Drow",
-    "ConquestFlagTimeSlot": 20
+    "ConquestFlagTimeSlot": 18
   },
   {
     "Name": "Aves",
@@ -5620,8 +5620,8 @@
     "Id": "150",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "MightyMidget",
-    "ConquestFlagTimeSlot": 14
+    "Capturer": "Babay",
+    "ConquestFlagTimeSlot": 18
   },
   {
     "Name": "Rosaly",
@@ -5659,7 +5659,7 @@
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
     "Capturer": "Bougainville",
-    "ConquestFlagTimeSlot": 20
+    "ConquestFlagTimeSlot": 18
   },
   {
     "Name": "Roseau",
@@ -5735,10 +5735,10 @@
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
     "Capturer": "Luxaeterna",
-    "ConquestFlagTimeSlot": 20
+    "ConquestFlagTimeSlot": 18
   },
   {
-    "Name": "La Trinit?",
+    "Name": "La TrinitÃ©",
     "Position": {
       "x": -776000.017344952,
       "y": 0,
@@ -5811,7 +5811,7 @@
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
     "Capturer": "Amnesia",
-    "ConquestFlagTimeSlot": 20
+    "ConquestFlagTimeSlot": 18
   },
   {
     "Name": "Fort-Royal",
@@ -5887,7 +5887,7 @@
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
     "Capturer": "Guy Niol",
-    "ConquestFlagTimeSlot": 20
+    "ConquestFlagTimeSlot": 18
   },
   {
     "Name": "Castries",
@@ -5924,8 +5924,8 @@
     "Id": "158",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "",
-    "ConquestFlagTimeSlot": -1
+    "Capturer": "Pierre Sylvestre de Villeneuve",
+    "ConquestFlagTimeSlot": 18
   },
   {
     "Name": "Vieux-Fort",
@@ -5962,8 +5962,8 @@
     "Id": "159",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "",
-    "ConquestFlagTimeSlot": -1
+    "Capturer": "Pierre Sylvestre de Villeneuve",
+    "ConquestFlagTimeSlot": 18
   },
   {
     "Name": "Saint Joseph",
@@ -6001,7 +6001,7 @@
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
     "Capturer": "Amnesia",
-    "ConquestFlagTimeSlot": 20
+    "ConquestFlagTimeSlot": 18
   },
   {
     "Name": "Bridgetown",
@@ -6152,7 +6152,7 @@
     "Id": "164",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Treffnix",
+    "Capturer": "Tretton",
     "ConquestFlagTimeSlot": 18
   },
   {
@@ -6308,7 +6308,7 @@
     "ConquestFlagTimeSlot": 20
   },
   {
-    "Name": "Puerto de Espa?a",
+    "Name": "Puerto de EspaÃ±a",
     "Position": {
       "x": -752600.016821921,
       "y": 0,
@@ -6343,7 +6343,7 @@
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
     "Capturer": "Kierrip de Badas",
-    "ConquestFlagTimeSlot": 20
+    "ConquestFlagTimeSlot": 18
   },
   {
     "Name": "La Blanquilla",
@@ -6364,7 +6364,7 @@
       "z": 0
     },
     "Rotation": 264.805603027344,
-    "Nation": 7,
+    "Nation": 5,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -6380,8 +6380,8 @@
     "Id": "170",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Hero994444",
-    "ConquestFlagTimeSlot": 14
+    "Capturer": "Pietjenoob",
+    "ConquestFlagTimeSlot": 18
   },
   {
     "Name": "La Orchila",
@@ -6456,7 +6456,7 @@
     "Id": "172",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Morv",
+    "Capturer": "Patrick Wighman",
     "ConquestFlagTimeSlot": 18
   },
   {
@@ -6574,7 +6574,7 @@
     "ConquestFlagTimeSlot": 18
   },
   {
-    "Name": "Santo Tom? de Guayana",
+    "Name": "Santo TomÃ© de Guayana",
     "Position": {
       "x": -791200.017684698,
       "y": 0,
@@ -6612,7 +6612,7 @@
     "ConquestFlagTimeSlot": 20
   },
   {
-    "Name": "Ca?o Araguao",
+    "Name": "CaÃ±o Araguao",
     "Position": {
       "x": -787800.017608703,
       "y": 0,
@@ -6650,7 +6650,7 @@
     "ConquestFlagTimeSlot": 20
   },
   {
-    "Name": "Ca?o Araguabisi",
+    "Name": "CaÃ±o Araguabisi",
     "Position": {
       "x": -767000.017143786,
       "y": 0,
@@ -6688,7 +6688,7 @@
     "ConquestFlagTimeSlot": 20
   },
   {
-    "Name": "Ca?o Macareo",
+    "Name": "CaÃ±o Macareo",
     "Position": {
       "x": -747800.016714633,
       "y": 0,
@@ -6802,7 +6802,7 @@
     "ConquestFlagTimeSlot": 20
   },
   {
-    "Name": "G?iria",
+    "Name": "GÃ¼iria",
     "Position": {
       "x": -717400.01603514,
       "y": 0,
@@ -6878,7 +6878,7 @@
     "ConquestFlagTimeSlot": 18
   },
   {
-    "Name": "Car?pano",
+    "Name": "CarÃºpano",
     "Position": {
       "x": -673400.015051663,
       "y": 0,
@@ -6988,7 +6988,7 @@
     "Id": "186",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Lobottomie",
+    "Capturer": "Pietjenoob",
     "ConquestFlagTimeSlot": 18
   },
   {
@@ -7068,7 +7068,7 @@
     "ConquestFlagTimeSlot": 18
   },
   {
-    "Name": "Cuman?",
+    "Name": "CumanÃ¡",
     "Position": {
       "x": -629000.014059246,
       "y": 0,
@@ -7144,7 +7144,7 @@
     "ConquestFlagTimeSlot": 18
   },
   {
-    "Name": "P?ritu",
+    "Name": "PÃ­ritu",
     "Position": {
       "x": -590400.013196469,
       "y": 0,
@@ -7182,7 +7182,7 @@
     "ConquestFlagTimeSlot": 18
   },
   {
-    "Name": "R?o Chico",
+    "Name": "RÃ­o Chico",
     "Position": {
       "x": -546200.012208522,
       "y": 0,
@@ -7296,7 +7296,7 @@
     "ConquestFlagTimeSlot": 18
   },
   {
-    "Name": "R?o Tocuyo",
+    "Name": "RÃ­o Tocuyo",
     "Position": {
       "x": -437600.009781122,
       "y": 0,
@@ -7600,7 +7600,7 @@
     "ConquestFlagTimeSlot": 18
   },
   {
-    "Name": "Perij?",
+    "Name": "PerijÃ¡",
     "Position": {
       "x": -265000.005923212,
       "y": 0,
@@ -7825,10 +7825,10 @@
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
     "Capturer": "TheDoc",
-    "ConquestFlagTimeSlot": 20
+    "ConquestFlagTimeSlot": 18
   },
   {
-    "Name": "R?o de la Hacha",
+    "Name": "RÃ­o de la Hacha",
     "Position": {
       "x": -230600.005154312,
       "y": 0,
@@ -7862,8 +7862,8 @@
     "Id": "209",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Makrian le Sage",
-    "ConquestFlagTimeSlot": 22
+    "Capturer": "Patrick Wighman",
+    "ConquestFlagTimeSlot": 18
   },
   {
     "Name": "Santa Marta",
@@ -7980,7 +7980,7 @@
     "ConquestFlagTimeSlot": 18
   },
   {
-    "Name": "Tol?",
+    "Name": "TolÃº",
     "Position": {
       "x": -108200.002418459,
       "y": 0,
@@ -8015,7 +8015,7 @@
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
     "Capturer": "TheDoc",
-    "ConquestFlagTimeSlot": 20
+    "ConquestFlagTimeSlot": 18
   },
   {
     "Name": "Canalete",
@@ -8090,8 +8090,8 @@
     "Id": "215",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Porter GER",
-    "ConquestFlagTimeSlot": 22
+    "Capturer": "Michael Corvinus",
+    "ConquestFlagTimeSlot": 0
   },
   {
     "Name": "Dariena",
@@ -8128,8 +8128,8 @@
     "Id": "216",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "nRg",
-    "ConquestFlagTimeSlot": 22
+    "Capturer": "Furq",
+    "ConquestFlagTimeSlot": 0
   },
   {
     "Name": "New Edinburgh",
@@ -8166,11 +8166,11 @@
     "Id": "217",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Arodar",
-    "ConquestFlagTimeSlot": 22
+    "Capturer": "Mhorb",
+    "ConquestFlagTimeSlot": 0
   },
   {
-    "Name": "Play?n",
+    "Name": "PlayÃ³n",
     "Position": {
       "x": 12400.0002771616,
       "y": 0,
@@ -8204,8 +8204,8 @@
     "Id": "218",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Jonathan Arlington",
-    "ConquestFlagTimeSlot": 0
+    "Capturer": "Baron50",
+    "ConquestFlagTimeSlot": 4
   },
   {
     "Name": "Mandinga",
@@ -8242,8 +8242,8 @@
     "Id": "219",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "KleXx",
-    "ConquestFlagTimeSlot": 0
+    "Capturer": "Caymen",
+    "ConquestFlagTimeSlot": 4
   },
   {
     "Name": "Portobelo",
@@ -8280,8 +8280,8 @@
     "Id": "220",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Telfer",
-    "ConquestFlagTimeSlot": 20
+    "Capturer": "Baron50",
+    "ConquestFlagTimeSlot": 22
   },
   {
     "Name": "Chagres",
@@ -8318,8 +8318,8 @@
     "Id": "221",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Telfer",
-    "ConquestFlagTimeSlot": 20
+    "Capturer": "Ranger",
+    "ConquestFlagTimeSlot": 22
   },
   {
     "Name": "Calobelo",
@@ -8356,11 +8356,11 @@
     "Id": "222",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Mhorb",
-    "ConquestFlagTimeSlot": 20
+    "Capturer": "slauightererer",
+    "ConquestFlagTimeSlot": 22
   },
   {
-    "Name": "Concepci?n",
+    "Name": "ConcepciÃ³n",
     "Position": {
       "x": 160600.00358969,
       "y": 0,
@@ -8398,7 +8398,7 @@
     "ConquestFlagTimeSlot": -1
   },
   {
-    "Name": "Chiriqu?",
+    "Name": "ChiriquÃ­",
     "Position": {
       "x": 186200.004161894,
       "y": 0,
@@ -8432,8 +8432,8 @@
     "Id": "224",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Cage",
-    "ConquestFlagTimeSlot": 20
+    "Capturer": "Rocky94x",
+    "ConquestFlagTimeSlot": 22
   },
   {
     "Name": "Almirante",
@@ -8470,8 +8470,8 @@
     "Id": "225",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Cage",
-    "ConquestFlagTimeSlot": 20
+    "Capturer": "Crowley",
+    "ConquestFlagTimeSlot": 22
   },
   {
     "Name": "Talamanca",
@@ -8508,8 +8508,8 @@
     "Id": "226",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Telfer",
-    "ConquestFlagTimeSlot": 20
+    "Capturer": "The Spud",
+    "ConquestFlagTimeSlot": 22
   },
   {
     "Name": "Matina",
@@ -8546,8 +8546,8 @@
     "Id": "227",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "CommmanderJ",
-    "ConquestFlagTimeSlot": 18
+    "Capturer": "Ranger",
+    "ConquestFlagTimeSlot": 20
   },
   {
     "Name": "San Juan del Norte",
@@ -8585,7 +8585,7 @@
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
     "Capturer": "Furq",
-    "ConquestFlagTimeSlot": 18
+    "ConquestFlagTimeSlot": 20
   },
   {
     "Name": "Grindstone",
@@ -8622,8 +8622,8 @@
     "Id": "229",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Aussie Pastor",
-    "ConquestFlagTimeSlot": 18
+    "Capturer": "slauightererer",
+    "ConquestFlagTimeSlot": 22
   },
   {
     "Name": "Bluefields",
@@ -8660,8 +8660,8 @@
     "Id": "230",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Telfer",
-    "ConquestFlagTimeSlot": 18
+    "Capturer": "TheElectricPickle",
+    "ConquestFlagTimeSlot": 20
   },
   {
     "Name": "Great Corn",
@@ -8736,8 +8736,8 @@
     "Id": "232",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Sir Henry de Montfort",
-    "ConquestFlagTimeSlot": 18
+    "Capturer": "TheElectricPickle",
+    "ConquestFlagTimeSlot": 20
   },
   {
     "Name": "Great River",
@@ -8774,8 +8774,8 @@
     "Id": "233",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "GKar Rah",
-    "ConquestFlagTimeSlot": 18
+    "Capturer": "Edward the Black",
+    "ConquestFlagTimeSlot": 20
   },
   {
     "Name": "Prinzapolka",
@@ -8812,8 +8812,8 @@
     "Id": "234",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Porter GER",
-    "ConquestFlagTimeSlot": 0
+    "Capturer": "TartanThug",
+    "ConquestFlagTimeSlot": 20
   },
   {
     "Name": "Old Providence",
@@ -8834,7 +8834,7 @@
       "z": 0
     },
     "Rotation": 315.000030517578,
-    "Nation": 6,
+    "Nation": 4,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -8850,11 +8850,11 @@
     "Id": "235",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Karl Leifsen",
-    "ConquestFlagTimeSlot": 14
+    "Capturer": "Wang",
+    "ConquestFlagTimeSlot": 4
   },
   {
-    "Name": "San Andr?s",
+    "Name": "San AndrÃ©s",
     "Position": {
       "x": 167200.003737211,
       "y": 0,
@@ -8888,8 +8888,8 @@
     "Id": "236",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Sebo",
-    "ConquestFlagTimeSlot": 22
+    "Capturer": "slauightererer",
+    "ConquestFlagTimeSlot": 4
   },
   {
     "Name": "Brangman's Bluff",
@@ -8926,8 +8926,8 @@
     "Id": "237",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "PsychoKillaMk2",
-    "ConquestFlagTimeSlot": 18
+    "Capturer": "Stealthems",
+    "ConquestFlagTimeSlot": 20
   },
   {
     "Name": "Mosquito Cay",
@@ -8948,7 +8948,7 @@
       "z": 0
     },
     "Rotation": 180,
-    "Nation": 6,
+    "Nation": 4,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -8964,7 +8964,7 @@
     "Id": "238",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Kodan",
+    "Capturer": "Arthur Wickham",
     "ConquestFlagTimeSlot": 18
   },
   {
@@ -9269,10 +9269,10 @@
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
     "Capturer": "Wang",
-    "ConquestFlagTimeSlot": 4
+    "ConquestFlagTimeSlot": 10
   },
   {
-    "Name": "?tila",
+    "Name": "Ãštila",
     "Position": {
       "x": 390400.00872612,
       "y": 0,
@@ -9424,7 +9424,7 @@
     "ConquestFlagTimeSlot": 12
   },
   {
-    "Name": "Santo Tom?s",
+    "Name": "Santo TomÃ¡s",
     "Position": {
       "x": 488400.010916591,
       "y": 0,
@@ -9762,11 +9762,11 @@
     "Id": "259",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Augustus Charles Hobart Hampden",
+    "Capturer": "Sakrosankt",
     "ConquestFlagTimeSlot": 10
   },
   {
-    "Name": "Asunci?n",
+    "Name": "AsunciÃ³n",
     "Position": {
       "x": 450600.010071695,
       "y": 0,
@@ -9914,8 +9914,8 @@
     "Id": "263",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Fiskey",
-    "ConquestFlagTimeSlot": 10
+    "Capturer": "Sakrosankt",
+    "ConquestFlagTimeSlot": 12
   },
   {
     "Name": "Conil",
@@ -9936,7 +9936,7 @@
       "z": 0
     },
     "Rotation": 285.642242431641,
-    "Nation": 4,
+    "Nation": 2,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -9952,8 +9952,8 @@
     "Id": "264",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Dreadnought Jack",
-    "ConquestFlagTimeSlot": 4
+    "Capturer": "PataPalo",
+    "ConquestFlagTimeSlot": 10
   },
   {
     "Name": "Cuyo",
@@ -9974,7 +9974,7 @@
       "z": 0
     },
     "Rotation": 0,
-    "Nation": 4,
+    "Nation": 2,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -9990,8 +9990,8 @@
     "Id": "265",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Augustus Charles Hobart Hampden",
-    "ConquestFlagTimeSlot": 4
+    "Capturer": "PataPalo",
+    "ConquestFlagTimeSlot": 10
   },
   {
     "Name": "Selam",
@@ -10012,7 +10012,7 @@
       "z": 0
     },
     "Rotation": 0,
-    "Nation": 4,
+    "Nation": 2,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": true,
@@ -10028,8 +10028,8 @@
     "Id": "266",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Porter GER",
-    "ConquestFlagTimeSlot": 4
+    "Capturer": "Malaspina",
+    "ConquestFlagTimeSlot": 20
   },
   {
     "Name": "Ysil",
@@ -10050,7 +10050,7 @@
       "z": 0
     },
     "Rotation": 0,
-    "Nation": 4,
+    "Nation": 2,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -10066,8 +10066,8 @@
     "Id": "267",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "nRg",
-    "ConquestFlagTimeSlot": 4
+    "Capturer": "PataPalo",
+    "ConquestFlagTimeSlot": 10
   },
   {
     "Name": "Sisal",
@@ -10088,7 +10088,7 @@
       "z": 0
     },
     "Rotation": 0,
-    "Nation": 4,
+    "Nation": 2,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -10104,8 +10104,8 @@
     "Id": "268",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Hudconn",
-    "ConquestFlagTimeSlot": 4
+    "Capturer": "Woodes Rogers I",
+    "ConquestFlagTimeSlot": -1
   },
   {
     "Name": "Campeche",
@@ -10126,7 +10126,7 @@
       "z": 0
     },
     "Rotation": 315.000030517578,
-    "Nation": 8,
+    "Nation": 2,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": true,
@@ -10142,11 +10142,11 @@
     "Id": "269",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "DukeNasty",
-    "ConquestFlagTimeSlot": 4
+    "Capturer": "pericopppp",
+    "ConquestFlagTimeSlot": 10
   },
   {
-    "Name": "Champot?n",
+    "Name": "ChampotÃ³n",
     "Position": {
       "x": 576200.012879074,
       "y": 0,
@@ -10164,7 +10164,7 @@
       "z": 0
     },
     "Rotation": 315.000030517578,
-    "Nation": 8,
+    "Nation": 2,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -10180,8 +10180,8 @@
     "Id": "270",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Nos Patris",
-    "ConquestFlagTimeSlot": 4
+    "Capturer": "Gaizka",
+    "ConquestFlagTimeSlot": 10
   },
   {
     "Name": "Puerto Real",
@@ -10202,7 +10202,7 @@
       "z": 0
     },
     "Rotation": 0,
-    "Nation": 8,
+    "Nation": 2,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -10218,8 +10218,8 @@
     "Id": "271",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Lord Vicious",
-    "ConquestFlagTimeSlot": 4
+    "Capturer": "Rodax lll",
+    "ConquestFlagTimeSlot": 10
   },
   {
     "Name": "Victoria",
@@ -10278,7 +10278,7 @@
       "z": 0
     },
     "Rotation": 15.9453964233398,
-    "Nation": 8,
+    "Nation": 2,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -10294,11 +10294,11 @@
     "Id": "273",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Sir Fartsalot",
-    "ConquestFlagTimeSlot": 4
+    "Capturer": "Timeless One",
+    "ConquestFlagTimeSlot": 10
   },
   {
-    "Name": "Esp?ritu Santo",
+    "Name": "EspÃ­ritu Santo",
     "Position": {
       "x": 693800.015507639,
       "y": 0,
@@ -10316,7 +10316,7 @@
       "z": 0
     },
     "Rotation": 338.198608398438,
-    "Nation": 8,
+    "Nation": 2,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -10332,8 +10332,8 @@
     "Id": "274",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Toast",
-    "ConquestFlagTimeSlot": 20
+    "Capturer": "CeltiberoGil",
+    "ConquestFlagTimeSlot": 10
   },
   {
     "Name": "Alvarado",
@@ -10354,7 +10354,7 @@
       "z": 0
     },
     "Rotation": 30.9637546539307,
-    "Nation": 8,
+    "Nation": 2,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -10370,8 +10370,8 @@
     "Id": "275",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Toast",
-    "ConquestFlagTimeSlot": 20
+    "Capturer": "Slicky",
+    "ConquestFlagTimeSlot": 10
   },
   {
     "Name": "Vera Cruz",
@@ -10392,7 +10392,7 @@
       "z": 0
     },
     "Rotation": 45.0000038146973,
-    "Nation": 8,
+    "Nation": 2,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": true,
@@ -10408,8 +10408,8 @@
     "Id": "276",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Nos Patris",
-    "ConquestFlagTimeSlot": 4
+    "Capturer": "amos baida",
+    "ConquestFlagTimeSlot": 10
   },
   {
     "Name": "Bernal",
@@ -10430,7 +10430,7 @@
       "z": 0
     },
     "Rotation": 90.0000076293945,
-    "Nation": 8,
+    "Nation": 2,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -10446,8 +10446,8 @@
     "Id": "277",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Sir Fartsalot",
-    "ConquestFlagTimeSlot": 4
+    "Capturer": "Timeless One",
+    "ConquestFlagTimeSlot": 10
   },
   {
     "Name": "Almeria",
@@ -10468,7 +10468,7 @@
       "z": 0
     },
     "Rotation": 45.0000038146973,
-    "Nation": 8,
+    "Nation": 2,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -10484,8 +10484,8 @@
     "Id": "278",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Toast",
-    "ConquestFlagTimeSlot": 20
+    "Capturer": "Gravina",
+    "ConquestFlagTimeSlot": 10
   },
   {
     "Name": "Tuspan",
@@ -10506,7 +10506,7 @@
       "z": 0
     },
     "Rotation": 45.0000038146973,
-    "Nation": 8,
+    "Nation": 2,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": true,
@@ -10522,8 +10522,8 @@
     "Id": "279",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "DukeNasty",
-    "ConquestFlagTimeSlot": 4
+    "Capturer": "Woodes Rogers I",
+    "ConquestFlagTimeSlot": 10
   },
   {
     "Name": "Tampico",
@@ -10544,7 +10544,7 @@
       "z": 0
     },
     "Rotation": 90.0000076293945,
-    "Nation": 8,
+    "Nation": 4,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -10560,8 +10560,8 @@
     "Id": "280",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Michael JD",
-    "ConquestFlagTimeSlot": 4
+    "Capturer": "Sakrosankt",
+    "ConquestFlagTimeSlot": 2
   },
   {
     "Name": "Tordo",
@@ -10792,7 +10792,7 @@
     "ConquestFlagTimeSlot": -1
   },
   {
-    "Name": "La Bah?a",
+    "Name": "La BahÃ­a",
     "Position": {
       "x": 747800.016714633,
       "y": 0,
@@ -11172,7 +11172,7 @@
     "ConquestFlagTimeSlot": -1
   },
   {
-    "Name": "Nouvelle-Orl?ans",
+    "Name": "Nouvelle-OrlÃ©ans",
     "Position": {
       "x": 462800.010344386,
       "y": 0,
@@ -11400,7 +11400,7 @@
     "ConquestFlagTimeSlot": 2
   },
   {
-    "Name": "San Jos?",
+    "Name": "San JosÃ©",
     "Position": {
       "x": 308800.006902218,
       "y": 0,
@@ -11798,7 +11798,7 @@
       "z": 0
     },
     "Rotation": 330.751190185547,
-    "Nation": 1,
+    "Nation": 2,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -11814,8 +11814,8 @@
     "Id": "313",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Lord Vicious",
-    "ConquestFlagTimeSlot": 4
+    "Capturer": "Alex SD",
+    "ConquestFlagTimeSlot": 16
   },
   {
     "Name": "Key West",
@@ -11874,7 +11874,7 @@
       "z": 0
     },
     "Rotation": 0,
-    "Nation": 1,
+    "Nation": 8,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -11890,8 +11890,8 @@
     "Id": "315",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Zombie Pirate",
-    "ConquestFlagTimeSlot": 12
+    "Capturer": "MR 80 D",
+    "ConquestFlagTimeSlot": 2
   },
   {
     "Name": "Islamorada",
@@ -11912,7 +11912,7 @@
       "z": 0
     },
     "Rotation": 135,
-    "Nation": 1,
+    "Nation": 8,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -11928,8 +11928,8 @@
     "Id": "316",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Zombie Pirate",
-    "ConquestFlagTimeSlot": 12
+    "Capturer": "Thurston Beers",
+    "ConquestFlagTimeSlot": 2
   },
   {
     "Name": "Cayo Largo",
@@ -11950,7 +11950,7 @@
       "z": 0
     },
     "Rotation": 24.1666297912598,
-    "Nation": 1,
+    "Nation": 8,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -11966,8 +11966,8 @@
     "Id": "317",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Caesar Augustus",
-    "ConquestFlagTimeSlot": 12
+    "Capturer": "Draacco",
+    "ConquestFlagTimeSlot": 2
   },
   {
     "Name": "Cayo Biscayno",
@@ -11988,7 +11988,7 @@
       "z": 0
     },
     "Rotation": 180,
-    "Nation": 1,
+    "Nation": 8,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": true,
@@ -12004,11 +12004,11 @@
     "Id": "318",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Zombie Pirate",
-    "ConquestFlagTimeSlot": 12
+    "Capturer": "Draacco",
+    "ConquestFlagTimeSlot": 2
   },
   {
-    "Name": "R?o Seco",
+    "Name": "RÃ­o Seco",
     "Position": {
       "x": 86200.0019267202,
       "y": 0,
@@ -12026,7 +12026,7 @@
       "z": 0
     },
     "Rotation": 90.0000076293945,
-    "Nation": 1,
+    "Nation": 8,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -12042,7 +12042,7 @@
     "Id": "319",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Admiral Phaggamemnon",
+    "Capturer": "Vernon Merrill",
     "ConquestFlagTimeSlot": 2
   },
   {
@@ -12064,7 +12064,7 @@
       "z": 0
     },
     "Rotation": 45.0000038146973,
-    "Nation": 1,
+    "Nation": 8,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -12080,8 +12080,8 @@
     "Id": "320",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "TsunamiEmperor",
-    "ConquestFlagTimeSlot": 12
+    "Capturer": "MR 80 D",
+    "ConquestFlagTimeSlot": 0
   },
   {
     "Name": "Ays",
@@ -12102,7 +12102,7 @@
       "z": 0
     },
     "Rotation": 90.0000076293945,
-    "Nation": 1,
+    "Nation": 8,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -12118,8 +12118,8 @@
     "Id": "321",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "TsunamiEmperor",
-    "ConquestFlagTimeSlot": 12
+    "Capturer": "MR 80 D",
+    "ConquestFlagTimeSlot": 2
   },
   {
     "Name": "San Sebastian",
@@ -12140,7 +12140,7 @@
       "z": 0
     },
     "Rotation": 45.0000038146973,
-    "Nation": 1,
+    "Nation": 8,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -12156,11 +12156,11 @@
     "Id": "322",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Caesar Augustus",
-    "ConquestFlagTimeSlot": 12
+    "Capturer": "Gorven Sylvandal",
+    "ConquestFlagTimeSlot": 2
   },
   {
-    "Name": "Cabo Ca?averal",
+    "Name": "Cabo CaÃ±averal",
     "Position": {
       "x": 106400.002378225,
       "y": 0,
@@ -12216,7 +12216,7 @@
       "z": 0
     },
     "Rotation": 45.0000038146973,
-    "Nation": 1,
+    "Nation": 8,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -12232,8 +12232,8 @@
     "Id": "324",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "LittleJP",
-    "ConquestFlagTimeSlot": 4
+    "Capturer": "MR 80 D",
+    "ConquestFlagTimeSlot": 0
   },
   {
     "Name": "Ayamonte",
@@ -12274,7 +12274,7 @@
     "ConquestFlagTimeSlot": 2
   },
   {
-    "Name": "San Agust?n",
+    "Name": "San AgustÃ­n",
     "Position": {
       "x": 137000.003062189,
       "y": 0,
@@ -12406,7 +12406,7 @@
       "z": 0
     },
     "Rotation": 135,
-    "Nation": 1,
+    "Nation": 8,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -12422,8 +12422,8 @@
     "Id": "329",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Toast",
-    "ConquestFlagTimeSlot": 10
+    "Capturer": "foxy",
+    "ConquestFlagTimeSlot": 2
   },
   {
     "Name": "Sunbury",
@@ -12520,7 +12520,7 @@
       "z": 0
     },
     "Rotation": 165.963760375977,
-    "Nation": 1,
+    "Nation": 8,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -12536,8 +12536,8 @@
     "Id": "332",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Toast",
-    "ConquestFlagTimeSlot": 10
+    "Capturer": "Sadmoon",
+    "ConquestFlagTimeSlot": 0
   },
   {
     "Name": "Charleston",
@@ -12726,8 +12726,8 @@
     "Id": "337",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Toast",
-    "ConquestFlagTimeSlot": 20
+    "Capturer": "Yawh",
+    "ConquestFlagTimeSlot": 2
   },
   {
     "Name": "Triangles",
@@ -12764,8 +12764,8 @@
     "Id": "338",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Lord Vicious",
-    "ConquestFlagTimeSlot": 4
+    "Capturer": "Kikusaku",
+    "ConquestFlagTimeSlot": 2
   },
   {
     "Name": "Baxo Nuevo",
@@ -12802,8 +12802,8 @@
     "Id": "339",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Nos Patris",
-    "ConquestFlagTimeSlot": 4
+    "Capturer": "Yawh",
+    "ConquestFlagTimeSlot": 0
   },
   {
     "Name": "Arenas",
@@ -12840,8 +12840,8 @@
     "Id": "340",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Nos Patris",
-    "ConquestFlagTimeSlot": 4
+    "Capturer": "The Lord Admiral Mongoose III",
+    "ConquestFlagTimeSlot": 0
   },
   {
     "Name": "La Bermeja",
@@ -12862,7 +12862,7 @@
       "z": 0
     },
     "Rotation": 348.439880371094,
-    "Nation": 4,
+    "Nation": 8,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -12878,8 +12878,8 @@
     "Id": "341",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "darkjoker",
-    "ConquestFlagTimeSlot": 16
+    "Capturer": "Willum Povy",
+    "ConquestFlagTimeSlot": 0
   },
   {
     "Name": "Alacranes",
@@ -12900,7 +12900,7 @@
       "z": 0
     },
     "Rotation": 234.462341308594,
-    "Nation": 4,
+    "Nation": 2,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -12916,8 +12916,8 @@
     "Id": "342",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "darkjoker",
-    "ConquestFlagTimeSlot": -1
+    "Capturer": "Piratajr",
+    "ConquestFlagTimeSlot": 12
   },
   {
     "Name": "Tumbado",
@@ -12992,7 +12992,7 @@
     "Id": "344",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Rocky94x",
+    "Capturer": "Reginald Dunbarr",
     "ConquestFlagTimeSlot": 18
   },
   {
@@ -13014,7 +13014,7 @@
       "z": 0
     },
     "Rotation": 111.801429748535,
-    "Nation": 4,
+    "Nation": 2,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -13030,8 +13030,8 @@
     "Id": "345",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Woody051",
-    "ConquestFlagTimeSlot": 22
+    "Capturer": "Inquisidor General Arsilon",
+    "ConquestFlagTimeSlot": 20
   },
   {
     "Name": "Placer",
@@ -13068,8 +13068,8 @@
     "Id": "346",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Aussie Pastor",
-    "ConquestFlagTimeSlot": 10
+    "Capturer": "Myra Nathan",
+    "ConquestFlagTimeSlot": 18
   },
   {
     "Name": "Misteriosa",
@@ -13106,8 +13106,8 @@
     "Id": "347",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Richard Williams",
-    "ConquestFlagTimeSlot": 10
+    "Capturer": "Roger Churchill",
+    "ConquestFlagTimeSlot": 18
   },
   {
     "Name": "Santanillas",
@@ -13144,8 +13144,8 @@
     "Id": "348",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Wang",
-    "ConquestFlagTimeSlot": 10
+    "Capturer": "Dogs Bollocks",
+    "ConquestFlagTimeSlot": 18
   },
   {
     "Name": "Serrana",
@@ -13183,7 +13183,7 @@
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
     "Capturer": "Crowley",
-    "ConquestFlagTimeSlot": 20
+    "ConquestFlagTimeSlot": 22
   },
   {
     "Name": "Bone Cay",
@@ -13508,7 +13508,7 @@
       "z": 0
     },
     "Rotation": 225.000015258789,
-    "Nation": 1,
+    "Nation": 8,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -13524,8 +13524,8 @@
     "Id": "358",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Zombie Pirate",
-    "ConquestFlagTimeSlot": 12
+    "Capturer": "Jack Frost",
+    "ConquestFlagTimeSlot": 2
   },
   {
     "Name": "Frozen Cay",
@@ -13584,7 +13584,7 @@
       "z": 0
     },
     "Rotation": 318.814086914063,
-    "Nation": 1,
+    "Nation": 8,
     "NationStartingPort": false,
     "Capital": false,
     "Regional": false,
@@ -13600,8 +13600,8 @@
     "Id": "360",
     "Created": "\/Date(-62135596800000-0000)\/",
     "Modified": "\/Date(-62135596800000-0000)\/",
-    "Capturer": "Bartolbi",
-    "ConquestFlagTimeSlot": 12
+    "Capturer": "MR 80 D",
+    "ConquestFlagTimeSlot": 0
   },
   {
     "Name": "Crown Haven",
