@@ -12,9 +12,9 @@ function initMap() {
             9: 'DimGrey'//Neutral
         },
         map: {
-            x: 0,
-            y: 0,
-            scale: 1
+            x: 4409,
+            y: 4376,
+            scale: 0.2
         },
         compass: {
             x: 0,
