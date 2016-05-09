@@ -19,7 +19,7 @@ function initMap() {
         compass: {
             x: 0,
             y: 0,
-            scale: 2
+            scale: 0.7
         },
         portsOffset: {
             x: 208,
