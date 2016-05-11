@@ -64,9 +64,8 @@ function Map(canvas, stage, imageMap, imageCompass, config) {
     this.portsContainer = new createjs.Container();
     this.unmodifiedMapContainer = {};
     this.compass = new Compass(imageCompass, config);
-    this.lineShape = new createjs.Shape();
-    this.line = this.lineShape.graphics;
     this.update = false;
+    this.alreadyZooming = false;
     this.init(imageMap);
 }
 
@@ -74,7 +73,6 @@ Map.prototype.init = function (imageMap) {
     this.stage.addChild(this.globalContainer);
     this.globalContainer.addChild(this.mapContainer);
     this.globalContainer.addChild(this.compass);
-    this.globalContainer.addChild(this.lineShape);
     this.mapContainer.addChild(new createjs.Bitmap(imageMap));
     this.mapContainer.addChild(this.portsContainer);
     this.mapContainer.hasBeenDblClicked = false;
@@ -117,25 +115,20 @@ Map.prototype.addPorts = function () {
 
 Map.prototype.keepMapUnderPos = function (x, y) {
     var mapPos = this.getMapPosFromWindowPos(x, y);
-    console.log('map', x, this.compass.x, mapPos.x);
-    this.globalContainer.x = x - this.mapContainer.scale * mapPos.x + this.globalContainer.x;
-    this.globalContainer.y = y - this.mapContainer.scale * mapPos.y + this.globalContainer.y;
+    // console.log('map', x, this.compass.x, mapPos.x);
+    this.globalContainer.x = x - this.mapContainer.scale * mapPos.x;
+    this.globalContainer.y = y - this.mapContainer.scale * mapPos.y;
 };
 
 Map.prototype.keepCompassUnderCurrentPos = function () {
-    var mapPos = this.getMapPosFromWindowPos(this.compass.x, this.compass.y);
-    console.log(this.compass.x, mapPos.x);
-    var newPos = this.getNewWindowPosFromMapPos(mapPos.x, mapPos.y);
-    console.log(newPos.x);
-    //this.compass.x -= this.mapContainer.scale * mapPos.x;
-    //this.compass.y -= this.mapContainer.scale * mapPos.y;
-    this.compass.x = newPos.x;
-    this.compass.y = newPos.y;
+    var mapPos = this.getMapPosFromWindowPos(this.compass.x + this.unmodifiedMapContainer.x, this.compass.y + this.unmodifiedMapContainer.y);
+    this.compass.x = mapPos.x * this.mapContainer.scale;
+    this.compass.y = mapPos.y * this.mapContainer.scale;
 };
 
 Map.prototype.centerTo = function (x, y) {
-    this.globalContainer.x = this.canvas.width / 2 - this.mapContainer.scale * x + this.globalContainer.x;
-    this.globalContainer.y = this.canvas.height / 2 - this.mapContainer.scale * y + this.globalContainer.y;
+    this.globalContainer.x = this.canvas.width / 2 - this.mapContainer.scale * x;
+    this.globalContainer.y = this.canvas.height / 2 - this.mapContainer.scale * y;
 };
 
 Map.prototype.getNewWindowPosFromMapPos = function (x, y) {
@@ -147,8 +140,8 @@ Map.prototype.getNewWindowPosFromMapPos = function (x, y) {
 
 Map.prototype.getMapPosFromWindowPos = function (x, y) {
     return {
-        x: (x - this.unmodifiedMapContainer.x + this.unmodifiedMapContainer.parent.x) / this.unmodifiedMapContainer.scale,
-        y: (y - this.unmodifiedMapContainer.y + this.unmodifiedMapContainer.parent.y) / this.unmodifiedMapContainer.scale
+        x: (x - this.unmodifiedMapContainer.x) / this.unmodifiedMapContainer.scale,
+        y: (y - this.unmodifiedMapContainer.y) / this.unmodifiedMapContainer.scale
     };
 };
 
@@ -165,15 +158,15 @@ Map.prototype.createAllEvents = function () {
 Map.prototype.dblClickEvent = function () {
     var self = this;
     this.globalContainer.on("dblclick", function (evt) {
-        //if(this.hasBeenDblClicked) {
-        //    self.line.lineTo(evt.stageX, evt.stageY).endStroke();
-        //    this.hasBeenDblClicked = false;
-        //} else {
-        self.compass.x = (evt.stageX - self.compass.getTransformedBounds().width / 2 - self.globalContainer.x);
-        self.compass.y = (evt.stageY - self.compass.getTransformedBounds().height / 2 - self.globalContainer.y);
-        //self.line.beginStroke('black').moveTo(evt.stageX, evt.stageY);
-        //this.hasBeenDblClicked = true;
-        //}
+        if (this.hasBeenDblClicked) {
+            self.compass.addLine(evt.stageX - self.globalContainer.x, evt.stageY - self.globalContainer.y);
+            this.hasBeenDblClicked = false;
+        } else {
+            self.compass.removeLine();
+            self.compass.x = (evt.stageX - self.globalContainer.x);
+            self.compass.y = (evt.stageY - self.globalContainer.y);
+            this.hasBeenDblClicked = true;
+        }
         self.update = true;
     });
 };
@@ -206,18 +199,31 @@ Map.prototype.pressUpEvent = function () {
 Map.prototype.mouseWheelEvent = function () {
     var self = this;
     $('#canvas').mousewheel(function (event) {
-        if (event.deltaY == 1) {
-            self.zoom(0.1);
-        } else if (event.deltaY == -1) {
-            self.zoom(-0.1);
+        if (!self.alreadyZooming) {
+            self.alreadyZooming = true;
+            setTimeout(function () {
+                self.alreadyZooming = false;
+            }, 40);
+            if (event.deltaY == 1) {
+                if (self.mapContainer.scale < 1) {
+                    self.zoom(0.1);
+                    self.keepMapUnderPos(event.pageX, event.pageY);
+                    self.keepCompassUnderCurrentPos();
+                }
+            } else if (event.deltaY == -1) {
+                if (self.mapContainer.scale > 0.2) {
+                    self.zoom(-0.1);
+                    self.keepMapUnderPos(event.pageX, event.pageY);
+                    self.keepCompassUnderCurrentPos();
+                }
+            }
+            //self.compass.x += self.mapContainer.x - self.unmodifiedMapContainer.x;
+            //self.compass.y += self.mapContainer.y - self.unmodifiedMapContainer.y;
+            //self.compass.keepSizeAndPos(self.unmodifiedMapContainer.scale, self.mapContainer.scale);
+            self.update = true;
         }
-        self.keepMapUnderPos(event.pageX, event.pageY);
-        self.keepCompassUnderCurrentPos();
-        //self.compass.x += self.mapContainer.x - self.unmodifiedMapContainer.x;
-        //self.compass.y += self.mapContainer.y - self.unmodifiedMapContainer.y;
-        //self.compass.keepSizeAndPos(self.unmodifiedMapContainer.scale, self.mapContainer.scale);
-        self.update = true;
     });
+
 };
 
 Map.prototype.resizeCanvasEvent = function () {
@@ -242,11 +248,15 @@ Map.prototype.tickEvent = function () {
 };
 
 Map.prototype.copyMapContainer = function () {
-    $.extend(true, this.unmodifiedMapContainer, this.mapContainer);
+    this.unmodifiedMapContainer = {
+        x: this.globalContainer.x,
+        y: this.globalContainer.y,
+        scale: this.mapContainer.scale
+    }
 };
 
 function Compass(imageCompass, config) {
-    this.addChild(new createjs.Bitmap(imageCompass));
+    this.addChild(new createjs.Bitmap(imageCompass).setTransform(-imageCompass.width / 2, -imageCompass.height / 2));
     this.setScale(config.compass.scale);
 }
 Compass.prototype = new createjs.Container();
@@ -256,12 +266,15 @@ Compass.prototype.setScale = function (scale) {
     this.scale = this.scaleX = this.scaleY = scale;
 };
 
-Compass.prototype.keepSize = function () {
-    var currentCenterX = this.getBounds().width * this.scale / 2;
-    var currentCenterY = this.getBounds().height * this.scale / 2;
-    this.setScale(this.scale * oldScale / newScale);
-    var nextCenterX = this.getBounds().width * this.scale / 2;
-    var nextCenterY = this.getBounds().height * this.scale / 2;
-    this.x += currentCenterX - nextCenterX;
-    this.y += currentCenterY - nextCenterY;
+Compass.prototype.addLine = function (x, y) {
+    var shape = new createjs.Shape();
+    this.lineIndex = this.children.length;
+    this.addChild(shape);
+    shape.graphics.setStrokeStyle(4,"round").beginStroke('black').moveTo(0, 0).lineTo(x - this.x, y - this.y);
+};
+
+Compass.prototype.removeLine = function () {
+    if(this.lineIndex) {
+        this.removeChildAt(this.lineIndex);
+    }
 };
